@@ -6,19 +6,19 @@ const platforms = [
   {
     name: 'macOS',
     icon: 'apple',
-    file: `Ora-Automation-${version}.dmg`,
+    file: `Mimir-${version}.dmg`,
     arch: 'Apple Silicon & Intel',
   },
   {
     name: 'Windows',
     icon: 'windows',
-    file: `Ora-Automation-${version}.msi`,
+    file: `Mimir-${version}.msi`,
     arch: '64-bit',
   },
   {
     name: 'Linux',
     icon: 'linux',
-    file: `Ora-Automation-${version}.AppImage`,
+    file: `Mimir-${version}.AppImage`,
     arch: 'x86_64',
   },
 ];
@@ -28,7 +28,7 @@ const platforms = [
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-12">
       <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-        Download Ora Automation
+        Download Mimir
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
         Get started with our free desktop app. Available for all major platforms.
@@ -42,7 +42,7 @@ const platforms = [
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
       {platforms.map((platform) => (
         <a
-          href={`https://github.com/wollenslab/ora-automation/releases/download/v${version}/${platform.file}`}
+          href={`https://github.com/karl21-02/mimir/releases/download/v${version}/${platform.file}`}
           class="group relative p-6 rounded-2xl bg-white border-2 border-gray-200 transition-all duration-300 hover:border-primary-500 hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-1"
         >
           <div class="flex flex-col items-center text-center">
@@ -94,7 +94,7 @@ const platforms = [
         Requires an internet connection. Connects to cloud backend for AI processing.
       </p>
       <p class="mt-2 text-sm text-gray-500">
-        <a href="https://github.com/wollenslab/ora-automation/releases" target="_blank" rel="noopener" class="text-primary-600 hover:text-primary-700 underline">
+        <a href="https://github.com/karl21-02/mimir/releases" target="_blank" rel="noopener" class="text-primary-600 hover:text-primary-700 underline">
           View all releases
         </a>
         {' · '}
